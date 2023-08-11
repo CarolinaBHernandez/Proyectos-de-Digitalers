@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de la Universidad</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <div>
+        <img src="img/eu_banner.png" alt="Banner">
+        <h2>Gestión de la Universidad</h2>
+
+        <h4 class="celeste"><strong>Ingresar Alumno</strong></h4>
+
+        <form action="#" method="POST" class="form-container">
+
+            <label for="nombreyapellido" class="orange"><strong>Nombre y Apellido: *</strong></label>
+            <input type="text" id="nombreyapellido" name="nombreyapellido" placeholder="Juan Garcia"><br>
+
+            <label for="edad" class="orange"><strong>Edad: *</strong></label>
+            <input type="number" id="edad" name="edad" required min="0" max="90" placeholder="18"><br>
+
+            <label class="orange"><strong>Materia: *</strong></label>
+            <select name="materia" id="materia">
+                <option>Programación lógica</option>
+                <optgroup label="Licenciatura en informática">
+                    <option>Programación lógica</option>
+                    <option>Algebra</option>
+                    <option>Programación Orientada a Objetos</option>
+                </optgroup>
+                <optgroup label="Licenciatura en economía">
+                    <option>Administración I</option>
+                    <option>Contabilidad</option>
+                    <option>Principios de economía</option>
+                </optgroup>
+                <optgroup label="Abogacia">
+                    <option>Introducción al derecho</option>
+                    <option>Teoria de la Persona</option>
+                    <option>Derecho Penal I</option>
+                </optgroup>
+            </select>
+            <br>
+            <input class="celeste" type="submit" value="Guardar">
+        </form>
+        <br>
+        <br>
+        <h2>Control de Registro</h2>
+        <span class="column-container">
+            <span class="column">Estudiante</span>
+            <span class="column">Edad</span>
+            <span class="column">Materia</span>
+        </span>
+
+    </div>
+
+</body>
+
+</html>
