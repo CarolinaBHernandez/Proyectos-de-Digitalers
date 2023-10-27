@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+}
+
+main{
+    display: flex;
+    font-size: 50px;
+    justify-content:space-evenly;
+    align-items:center;
+    border: 2px solid black;
+    height: 300px;
+}
+
+#uno{
+    background-color: cornflowerblue;
+}
+#dos{
+    background-color: rgb(17, 74, 180);
+}
+#tres{
+    background-color: rgb(0, 37, 104);
+}
+table{
+    background-color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+caption{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:chocolate;
+}
+th{
+    padding: 5px;
+    border-width:3px ;
+    background-color: darkorange;
+    width:120px;
+    height: 50px;
+}
+tr{
+    background-color:burlywood;
+}
